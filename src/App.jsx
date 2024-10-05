@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import './index.css';
 function App() {
-    let [data,setData]=useState(db);
+    
     return (
        <div id="body">
          <div id="conatiner">
