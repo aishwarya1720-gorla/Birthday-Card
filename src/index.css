@@ -11,7 +11,7 @@
 }
 #conatiner{
     border:solid red;
-    height:120vh;
+    height:90vh;
     width:70vh;
   background-color:orange;
 margin-left:70vh ;
@@ -27,6 +27,6 @@ button{
     background-color: white;
     border: none;
     color: orange;
-   margin-left: 20vh;
+   margin-left: 25vh;
    padding: 2vh 5vh;
 }

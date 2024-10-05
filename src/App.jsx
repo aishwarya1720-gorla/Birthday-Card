@@ -1,11 +1,12 @@
 import React, { useState } from 'react';
+import db from './db';
 import './index.css';
 function App() {
-    
+    let [data,setData]=useState(db);
     return (
        <div id="body">
          <div id="conatiner">
-            <h3 style={{textAlign:"center", paddingBottom:"10px",color:"white"}}>{data.length} Birthdays Today</h3>
+            <h1 style={{textAlign:"center", paddingBottom:"10px",color:"white"}}>{data.length} birthdays today</h1>
             {data.map((x, index) => {
                 return (
                     <div key={index} id="main">
